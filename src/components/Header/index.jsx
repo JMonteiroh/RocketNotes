@@ -1,9 +1,20 @@
-import { Container } from './style'
+import { Container, Profile } from './style'
 
 export function Header(){
   return (
     <Container>
-      <h1>Header</h1>
+      <Profile>
+        <img 
+          src="http://github.com/jmonteiroh.png"
+          alt="Foto do usuário"
+        />
+
+        <div>
+          <span>Bem-vindo,</span>
+          <strong>João Paulo Monteiro</strong>
+        </div>
+
+      </Profile>
     </Container>
   )
 }
