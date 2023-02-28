@@ -60,7 +60,7 @@ export const Content = styled.div`
 
   padding: 0 64px;
 
-  overflow-y: scroll;
+  overflow-y: auto;
 
 
 `;
