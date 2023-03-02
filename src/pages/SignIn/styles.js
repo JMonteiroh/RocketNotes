@@ -1,14 +1,15 @@
 import styled from "styled-components";
+import backgroundImg from '../../assets/background.png'
 
 export const Container = styled.div`
-  width: 100%;
+  height: 100vh;
 
   display: flex;
   align-items: stretch;
 `;
 
 export const Form = styled.form`
-  padding: 0;
+  padding: 0 136px ;
 
   display: flex;
   flex-direction: column;
@@ -40,5 +41,12 @@ export const Form = styled.form`
     color: ${({ theme }) => theme.COLORS.ORANGE};
 
   }
+
+`;
+
+export const Background = styled.div`
+  flex: 1;
+  background: url(${backgroundImg}) no-repeat center/cover;
+  opacity: 25%;
 
 `;
